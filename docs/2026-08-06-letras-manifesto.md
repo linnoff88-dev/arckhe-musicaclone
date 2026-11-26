@@ -9,20 +9,20 @@ e comportamento**, letra e melodia originais.
 
 | Comportamento medido | Como entra na letra |
 |---|---|
-| 41 dB de faixa dinâmica | intro **falada/sussurrada quase sem instrumento** — sem isso não há de onde subir |
-| 182 notas sustentadas, até 3,1s | fim de frase em vogal aberta (`-ão`, `-ou`, `-é`) para segurar |
-| vibrato 7,2 Hz / 53 cents | sustentação longa no fim do refrão, onde o vibrato abre |
-| sem falsete, mix de peito | refrão em belt, nunca em falsete |
+| 41 dB de faixa dinâmica | intro **falada/sussurrada quase sem instrumento** — sem isso nêo há de onde subir |
+| 182 notas sustentadas, até 3,1s | fim de frase em vogal aberta (`-êo`, `-ou`, `-é`) para segurar |
+| vibrato 7,2 Hz / 53 cents | sustentaçêo longa no fim do refrêo, onde o vibrato abre |
+| sem falsete, mix de peito | refrêo em belt, nunca em falsete |
 | fraseado atrasado (layback) | versos com sílabas sobrando, para cantar contra o tempo |
-| 418 glissandos | saltos grandes entre pré-refrão e refrão |
+| 418 glissandos | saltos grandes entre pré-refrêo e refrêo |
 
-**Erro a não repetir:** em "Se Paga" o prompt pedia intensidade do começo ao fim
+**Erro a nêo repetir:** em "Se Paga" o prompt pedia intensidade do começo ao fim
 (`screaming`, `desperate`, `raspy` em tudo) e isso achatou. Aqui os três specs têm
-seção calma explícita.
+seçêo calma explícita.
 
 ---
 
-## 1. "Não Se Desiste" — perseverança
+## 1. "Nêo Se Desiste" — perseverança
 
 **Style:**
 `raw emotional male and female duet, gravelly baritone, driven chest mix, no falsetto,
@@ -41,8 +41,8 @@ Aprendi devagar, sozinho
 E o medo chegava antes da prova
 
 [Pre-Chorus] [Female Vocal] [building]
-Não foi talento que me trouxe aqui
-(não foi talento)
+Nêo foi talento que me trouxe aqui
+(nêo foi talento)
 Foi voltar no dia seguinte
 
 [Chorus] [Female Vocal] [Belting] [Raspy Peak]
@@ -54,19 +54,19 @@ Mais lento, mais torto, mas eu volto
 [Gang Vocals]
 Mais uma vez!
 [Female Vocal] [High Belt] [long sustain]
-Quem fica de pé não é quem não caiu
-É quem levantou com a mão tremendo
+Quem fica de pé nêo é quem nêo caiu
+É quem levantou com a mêo tremendo
 
 [Verse 2] [Female Vocal] [soft]
 Ninguém aprende só olhando
 Ninguém acerta sem gastar o erro
-Cada não me ensinou a perguntar melhor
+Cada nêo me ensinou a perguntar melhor
 
 [Bridge] [Male Deep] [Spoken Word] [lights down]
-Não é força
-É teimosia com direção
+Nêo é força
+É teimosia com direçêo
 [Female Vocal] [Whisper]
-Teimosia com direção
+Teimosia com direçêo
 [Female Vocal] [Desperate Scream]
 E EU TENHO!
 
@@ -76,12 +76,12 @@ E eu volto!
 Ela volta!
 [Female Vocal] [High Belt] [longest sustain]
 Que ninguém me viu tentar
-E vão me ver chegar
+E vêo me ver chegar
 
 [Outro] [Male Deep] [Spoken Word]
-Não se desiste de quem você ainda vai ser
+Nêo se desiste de quem você ainda vai ser
 [Female Vocal] [High Belt]
-Não se desisteeee
+Nêo se desisteeee
 ```
 
 ---
@@ -105,12 +105,12 @@ Em quase tudo que dá pra medir
 [Verse 1] [Female Vocal] [soft]
 Ela lê mais rápido, ela nunca cansa
 Ela sabe o que eu levei anos pra saber
-Mas ela nunca teve medo às três da manhã
+Mas ela nunca teve medo às três da manhê
 E nunca precisou de ninguém pra continuar
 
 [Pre-Chorus] [Female Vocal] [building]
-O que me faz humano não é a resposta
-(não é a resposta)
+O que me faz humano nêo é a resposta
+(nêo é a resposta)
 É por que eu quis perguntar
 
 [Chorus] [Female Vocal] [Belting]
@@ -126,17 +126,17 @@ Ferramenta sem propósito é só barulho
 Só barulho!
 
 [Verse 2] [Female Vocal]
-Ela não perde o sono por causa de alguém
-Não sente vergonha, não tem o que provar
-Não sabe o peso de recomeçar
+Ela nêo perde o sono por causa de alguém
+Nêo sente vergonha, nêo tem o que provar
+Nêo sabe o peso de recomeçar
 
 [Bridge] [Male Deep] [Spoken Word] [lights down]
 Parecer inteligente
-Não é a mesma coisa que ser verdadeiro
+Nêo é a mesma coisa que ser verdadeiro
 [Female Vocal] [Whisper]
-Não é a mesma coisa
+Nêo é a mesma coisa
 [Female Vocal] [Desperate Scream]
-NÃO É A MESMA COISA!
+NêO É A MESMA COISA!
 
 [Chorus] [Female Vocal] [Belting] [full]
 O centro é meu!
@@ -156,7 +156,7 @@ Continua sendo eeeu
 
 ## 3. "A Roda" — ninguém cresce sozinho
 
-Do trecho do manifesto sobre não fingir que inventou tudo e dar crédito.
+Do trecho do manifesto sobre nêo fingir que inventou tudo e dar crédito.
 
 **Style:**
 `soulful gospel rock, raspy male lead, female harmony, full choir, hammond organ,
@@ -165,7 +165,7 @@ extreme dynamic contrast, brazilian portuguese, 92bpm`
 
 ```
 [Intro] [Spoken Word] [Male Deep] [organ only]
-Eu não inventei a roda
+Eu nêo inventei a roda
 Nem preciso dizer que inventei
 
 [Verse 1] [Male Vocal] [soft] [raspy]
@@ -175,8 +175,8 @@ Eu peguei o que já existia
 Olhei de perto e quis melhorar
 
 [Pre-Chorus] [Male Vocal] [building]
-Não diminui em nada o que eu faço
-(não diminui)
+Nêo diminui em nada o que eu faço
+(nêo diminui)
 Dizer de onde veio
 
 [Chorus] [Male Vocal] [Belting] [Raspy Peak]
@@ -194,7 +194,7 @@ Alguém melhora, alguém divide de novo
 [Verse 2] [Male Vocal]
 Sozinho eu chego rápido num lugar pequeno
 Junto eu demoro e chego longe
-Meu nome não precisa estar em tudo
+Meu nome nêo precisa estar em tudo
 
 [Bridge] [Female Vocal] [Whisper] [almost silent]
 Ninguém evolui sozinho
@@ -222,7 +222,7 @@ Faz girar
 ## Custo
 
 3 gerações × 12 créditos = **36 créditos**. Saldo antes: 694,8.
-Cada geração devolve 2 faixas → 6 faixas novas.
+Cada geraçêo devolve 2 faixas → 6 faixas novas.
 
 ## Status
 

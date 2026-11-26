@@ -202,12 +202,12 @@ def espectro(chave):
 
 # ------------------------------------------------- producao do clipe por musica
 CLIPE = {
- "se-paga-pt": ("clipe-v2", "escuro · corte médio · fusão e janela",
+ "se-paga-pt": ("clipe-v2", "escuro · corte médio · fusêo e janela",
    "Duas camadas que se alternam: a arena onde a dupla canta e a historia de quem "
    "acorda antes do sol, carrega o que ninguem quis e apanha das portas fechadas. "
    "A dupla exposicao e o ponto onde as duas se encontram sem corte. Termina com as "
    "luzes da arena caindo devagar."),
- "se-paga-en": ("clipe-v2", "escuro · corte rápido · só fusão",
+ "se-paga-en": ("clipe-v2", "escuro · corte rápido · só fusêo",
    "As mesmas imagens da versao PT, mas embaralhadas e com corte mais rapido, para "
    "nao virar clone. Sem janela: aqui a sobreposicao e sempre dupla exposicao."),
  "legado-pt": ("clipe-v2", "escuro · corte lento · quase sem texto",
@@ -249,15 +249,15 @@ def bloco_clipe(slug):
       <div class="plab">história do clipe <span>· banco {banco} · {html.escape(ritmo)}</span></div>
       <p class="sdesc">{html.escape(hist)}</p>
       <details>
-        <summary>prompts usados nas imagens e na animação</summary>
+        <summary>prompts usados nas imagens e na animaçêo</summary>
         <div class="plab">acabamento aplicado a TODA imagem do projeto</div>
         <code>{html.escape(LOOK_IMG)}</code>
         <div class="plab neg">negativo, também em todas</div>
         <code>{html.escape(NEG_IMG)}</code>
-        <div class="plab">molde do prompt de animação (Agnes)</div>
+        <div class="plab">molde do prompt de animaçêo (Agnes)</div>
         <code>{html.escape(MOLDE_VID)}</code>
         <p class="sdesc" style="margin-top:.8em">As 22 descrições de cena e os 22 movimentos
-        de câmera deste banco estão em
+        de câmera deste banco estêo em
         <a href="https://github.com/inematds/musicaclone/blob/main/docs/clipes/bancos/{banco[-2:]}-cenas.json">{banco[-2:]}-cenas.json</a> e
         <a href="https://github.com/inematds/musicaclone/blob/main/docs/clipes/bancos/{banco[-2:]}-movs.json">{banco[-2:]}-movs.json</a>.
         O passo a passo completo está em

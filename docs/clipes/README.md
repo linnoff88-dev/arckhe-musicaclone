@@ -1,10 +1,10 @@
 # Como criamos os clipes
 
-> Onde a produção parou e o que falta: **[ESTADO.md](ESTADO.md)**
+> Onde a produçêo parou e o que falta: **[ESTADO.md](ESTADO.md)**
 
 Pipeline completo que transforma uma música gerada num clipe musical, sem
-gerador de vídeo caro: imagem local, animação por keyframe e montagem em ffmpeg
-seguindo um plano de cenas escrito à mão.
+gerador de vídeo caro: imagem local, animaçêo por keyframe e montagem em ffmpeg
+seguindo um plano de cenas escrito à mêo.
 
 ```
 letra da música
@@ -42,14 +42,14 @@ doll face, oversaturated, text, watermark, extra fingers, deformed
 Modelo `flux2-klein` no inemaimg local (`localhost:8000`), 1312x736 para 16:9,
 seed fixo por cena (`1000 + n`) para a imagem ser reproduzível.
 
-**Consistência de personagem** sai de repetir a descrição física inteira em toda
+**Consistência de personagem** sai de repetir a descriçêo física inteira em toda
 cena onde a pessoa aparece ("a 28-year-old woman with dirty-blonde hair falling
-past her shoulders and freckles across her nose"). Não existe truque melhor: se
-a descrição encurta, o rosto muda.
+past her shoulders and freckles across her nose"). Nêo existe truque melhor: se
+a descriçêo encurta, o rosto muda.
 
-Os prompts de cena de cada banco estão em [`bancos/`](bancos/).
+Os prompts de cena de cada banco estêo em [`bancos/`](bancos/).
 
-## 2. A animação (`gerar_clipes.py`)
+## 2. A animaçêo (`gerar_clipes.py`)
 
 Cada foto vira um clipe de 5s na Agnes (`agnes-video-v2.0`, modo keyframes,
 mesma imagem nos dois keyframes). O movimento de câmera vem de `movs.json`, uma
@@ -74,53 +74,53 @@ progressivo até 8 tentativas.
 
 ## 3. A receita da música (`receitas.py`)
 
-Aqui é onde cada música ganha identidade. **Não existe tabela única**: cada uma
+Aqui é onde cada música ganha identidade. **Nêo existe tabela única**: cada uma
 declara seu banco, seu ritmo de corte e sua política de texto.
 
 ```python
 R["a-roda"] = dict(banco="clipe-v3", xfade=0.35, cenas=[
  (10, 7, "cheio",  None,     None),
  (0,  5, "rajada", [9,2,7,10,4,13], None),
- (6,  7, "cheio",  None,     "EU NÃO INVENTEI A RODA"),
+ (6,  7, "cheio",  None,     "EU NêO INVENTEI A RODA"),
  ...])
 ```
 
-Cada cena é `(número, peso de duração, modo, sobreposta, texto)`.
+Cada cena é `(número, peso de duraçêo, modo, sobreposta, texto)`.
 
 **Modos disponíveis:**
 
 | modo | o que faz |
 |---|---|
 | `cheio` | o plano ocupa a tela toda |
-| `fusao` | dupla exposição: outra cena dissolvida por cima (55% de opacidade) |
+| `fusao` | dupla exposiçêo: outra cena dissolvida por cima (55% de opacidade) |
 | `janela` | a cena principal cheia e outra numa janela no canto |
 | `split` | duas ou três imagens dividindo a tela ao mesmo tempo |
 | `rajada` | várias imagens em 0,28s cada, corte seco com zoom alternado |
-| `preto` | tela preta com cartela de texto, usada como respiro antes do refrão |
+| `preto` | tela preta com cartela de texto, usada como respiro antes do refrêo |
 | `insertos` | flashes de 0,22s de outra imagem por cima, sem cortar o plano |
 
 **Duas regras que vieram de erro real:**
 
-1. **Close de quem canta no máximo 4s.** A Agnes anima foto parada, então não há
+1. **Close de quem canta no máximo 4s.** A Agnes anima foto parada, entêo nêo há
    sincronia labial — segurar um rosto "cantando" por 12s denuncia na hora.
-   As cenas de canto de cada banco estão listadas em `CANTANDO`.
+   As cenas de canto de cada banco estêo listadas em `CANTANDO`.
 2. **Nenhum plano passa de 11s.** Quando o teto encurta demais e sobra música,
    o script recicla cenas do próprio banco em vez de esticar uma só.
 
 **Faixa 1 e faixa 2 têm montagem diferente.** O Suno devolve duas faixas por
-geração; se as duas usassem a mesma ordem, os dois clipes ficariam iguais. A
-faixa 2 gira o ponto de partida, inverte a gramática (cheio vira janela ou fusão
+geraçêo; se as duas usassem a mesma ordem, os dois clipes ficariam iguais. A
+faixa 2 gira o ponto de partida, inverte a gramática (cheio vira janela ou fusêo
 e vice-versa), corta metade das cartelas e usa crossfade 60% mais longo.
 
 ## 4. A montagem (`montar_plano.py`)
 
-Monta cada cena na duração exata, encadeia por crossfade, corta no tempo do
+Monta cada cena na duraçêo exata, encadeia por crossfade, corta no tempo do
 áudio e queima a trilha por cima com fade.
 
 **Armadilhas de ffmpeg que custaram caro aqui, todas resolvidas:**
 
 - `xfade` entrega **yuv444p**. Sem forçar `format=yuv420p` e `-pix_fmt yuv420p`,
-  o arquivo sai em perfil `High 4:4:4 Predictive` e **não toca** em celular, TV
+  o arquivo sai em perfil `High 4:4:4 Predictive` e **nêo toca** em celular, TV
   nem Telegram.
 - `zoompan` gera `d=` quadros **por quadro de entrada**. Com `-loop 1 -t 7` a
   entrada tem 168 quadros e o clipe sai com 29.400 (1225s). A entrada precisa
@@ -156,9 +156,9 @@ python3 montar_plano.py /tmp/plano.json
 |---|---|---|
 | **v2** | arena escura, feixe branco e neblina, história paralela | Se Paga, It's Paid, Legado |
 | **v3** | moderno e alegre, luz do dia, coral, confete, cores saturadas | A Roda |
-| **v4** | íntimo e documental, uma personagem, luz natural, sem palco | Não Se Desiste |
+| **v4** | íntimo e documental, uma personagem, luz natural, sem palco | Nêo Se Desiste |
 | **v5** | gráfico, azul e âmbar, simétrico, quase abstrato | O Centro |
 
 Sem pirotecnia em nenhum: as referências de show serviram de gramática de
-câmera (plano aberto de arena, macro no microfone, dupla exposição, reverso para
-a plateia), não de cenografia.
+câmera (plano aberto de arena, macro no microfone, dupla exposiçêo, reverso para
+a plateia), nêo de cenografia.

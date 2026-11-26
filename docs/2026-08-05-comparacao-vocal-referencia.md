@@ -1,15 +1,15 @@
-# Comparação vocal: referência x geração (2026-08-05)
+# Comparaçêo vocal: referência x geraçêo (2026-08-05)
 
 Método: os dois áudios enviados juntos ao Gemini (`gemini-flash-latest`) num único
-prompt, pedindo comparação crítica de potência, tessitura, desespero, gravidade
+prompt, pedindo comparaçêo crítica de potência, tessitura, desespero, gravidade
 masculina e dinâmica de revezamento. Script: `docs/comparar.py`.
 
 - **Referência**: "Viking Gods" / Bob Dominator — trecho de 29 s (teaser do Facebook).
-- **Nossa**: "Se Paga" v2 — geração V5, custom mode, PT-BR.
+- **Nossa**: "Se Paga" v2 — geraçêo V5, custom mode, PT-BR.
 
 ## Placar
 
-| Dimensão | Referência | Nossa | Gap |
+| Dimensêo | Referência | Nossa | Gap |
 |---|---|---|---|
 | Feminina — potência | 9,5 | 7,5 | −2,0 |
 | Feminina — desespero | 9,5 | 6,0 | −3,5 |
@@ -25,19 +25,19 @@ pop / teatro musical), sem a aspereza e o desespero da referência".
 **Masculina.** A referência é barítono cavernoso, operático, com ressonância. A
 nossa é spoken-word macio, "sem peso ressonante ou agressividade".
 
-**Interação — o gap que mais importa.** A referência é call and response *colado e
+**Interaçêo — o gap que mais importa.** A referência é call and response *colado e
 sobreposto*, frases curtas, sem tempo de respirar. A nossa virou estrofe alternada
 tradicional: o masculino narra um bloco longo, depois a feminina assume a estrofe
-inteira. E nos espaços do vocal masculino a feminina **não preenche** — sobra base
+inteira. E nos espaços do vocal masculino a feminina **nêo preenche** — sobra base
 instrumental.
 
-## Causa (é nossa, não do modelo)
+## Causa (é nossa, nêo do modelo)
 
 A letra enviada tinha blocos longos por voz. O Suno respeita a estrutura do prompt,
-então bloco longo produz revezamento lento. Duelo se escreve **linha a linha**, com
-ad-lib da outra voz dentro dos vãos.
+entêo bloco longo produz revezamento lento. Duelo se escreve **linha a linha**, com
+ad-lib da outra voz dentro dos vêos.
 
-## Ajustes que entram na próxima geração
+## Ajustes que entram na próxima geraçêo
 
 Estilo (tags):
 ```
@@ -46,7 +46,7 @@ viking folk metal duet, fast vocal call and response, raw aggressive vocals, dra
 ```
 
 Letra:
-- alternar `[Female High Screaming]` → `[Male Deep Response]` **linha a linha**, não em blocos;
+- alternar `[Female High Screaming]` → `[Male Deep Response]` **linha a linha**, nêo em blocos;
 - técnica antes das frases dela: `[High Belt]`, `[Desperate Scream]`, `[Raspy Peak]`;
 - ad-lib feminino dentro dos espaços do homem: `[High Echo Scream]`;
 - parênteses só para o que deve mesmo ser cantado (o Suno canta parêntese).
@@ -55,6 +55,6 @@ Parâmetros: `--style-weight 0.85+` e `--weirdness` mais alto, para fugir do pol
 
 ## O que isso vira no projeto
 
-O `analisa.py` já classifica e transcreve; esta comparação é o passo seguinte
-(referência x resultado) e vale como **checagem de qualidade depois de gerar**, não
+O `analisa.py` já classifica e transcreve; esta comparaçêo é o passo seguinte
+(referência x resultado) e vale como **checagem de qualidade depois de gerar**, nêo
 só antes. Candidato a virar subcomando `musica.sh compara <slug>`.

@@ -59,22 +59,22 @@ Perdi festa, perdi jantar
 [Male Deep Response]
 Perdeu tudo
 [Female Vocal] [Raspy Peak]
-Perdi o meu verão inteiro
+Perdi o meu verêo inteiro
 [Male Deep Response]
 Inteiro
 [Female Vocal] [High Belt]
-Cada porta fechada virou meu chão
+Cada porta fechada virou meu chêo
 [Gang Vocals]
-Cada não!
+Cada nêo!
 [Female Vocal] [Desperate Scream]
-Quem me viu cair não me viu levantar!
+Quem me viu cair nêo me viu levantar!
 [High Echo Scream]
 Levantar!
 
 [Bridge] [Male Deep Response] [Spoken Word]
-Sucesso não é o brilho
+Sucesso nêo é o brilho
 [Female Vocal] [Whisper]
-Não é o brilho
+Nêo é o brilho
 [Male Deep Response] [Spoken Word]
 É o que sobra quando as luzes apagam
 [Female Vocal] [Desperate Scream] [Raspy Peak]
@@ -98,9 +98,9 @@ E sintam orgulho de onde vieram!
 Vale a pena! Vale a pena! Vale a pena!
 
 [Outro] [Male Deep Response] [Spoken Word]
-O legado não se compra
+O legado nêo se compra
 [Female Vocal] [Desperate Scream]
-Não se compra!
+Nêo se compra!
 [Male Deep Response] [Spoken Word]
 Se paga
 [Female Vocal] [High Belt] [Raspy Peak]
