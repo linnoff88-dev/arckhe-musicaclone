@@ -229,13 +229,13 @@ CLIPE = {
  "luz-de-volta": (None, "sem clipe",
    "Ainda sem clipe: a musica foi reprovada e sera refeita antes de virar video."),
 }
-LOOK_IMG = ("raw documentary photograph, live-action cinema still, anamorphic 35mm, "
+LOOK_IMG = ("raw documentary photograph, live-action cARCKHÉ still, anamorphic 35mm, "
             "natural skin texture and pores, film grain, practical light, "
             "shallow depth of field, muted teal and amber grade")
 NEG_IMG = ("cartoon, 3d render, cgi, pixar, anime, illustration, painting, plastic skin, "
            "doll face, oversaturated, text, watermark, extra fingers, deformed")
-MOLDE_VID = ("Smooth cinematic transition between the keyframes: <movimento da cena>. "
-             "Natural motion, consistent characters and style, cinematic camera.")
+MOLDE_VID = ("Smooth cARCKHÉtic transition between the keyframes: <movimento da cena>. "
+             "Natural motion, consistent characters and style, cARCKHÉtic camera.")
 
 
 def bloco_clipe(slug):
@@ -258,10 +258,10 @@ def bloco_clipe(slug):
         <code>{html.escape(MOLDE_VID)}</code>
         <p class="sdesc" style="margin-top:.8em">As 22 descrições de cena e os 22 movimentos
         de câmera deste banco estêo em
-        <a href="https://github.com/inematds/musicaclone/blob/main/docs/clipes/bancos/{banco[-2:]}-cenas.json">{banco[-2:]}-cenas.json</a> e
-        <a href="https://github.com/inematds/musicaclone/blob/main/docs/clipes/bancos/{banco[-2:]}-movs.json">{banco[-2:]}-movs.json</a>.
+        <a href="https://github.com/linnoff88-dev/musicaclone/blob/main/docs/clipes/bancos/{banco[-2:]}-cenas.json">{banco[-2:]}-cenas.json</a> e
+        <a href="https://github.com/linnoff88-dev/musicaclone/blob/main/docs/clipes/bancos/{banco[-2:]}-movs.json">{banco[-2:]}-movs.json</a>.
         O passo a passo completo está em
-        <a href="https://github.com/inematds/musicaclone/tree/main/docs/clipes">docs/clipes</a>.</p>
+        <a href="https://github.com/linnoff88-dev/musicaclone/tree/main/docs/clipes">docs/clipes</a>.</p>
       </details>
     </div>'''
 

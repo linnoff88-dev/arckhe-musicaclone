@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera a sequencia de fotos 16:9 no inemaimg (flux2-klein).
+"""Gera a sequencia de fotos 16:9 no ARCKHÉimg (flux2-klein).
 
 Uso: gerar_fotos.py <pasta-destino> [indice-inicial]
 Le as cenas de cenas.json na pasta (lista de {n, prompt}).
@@ -10,7 +10,7 @@ DEST = sys.argv[1]
 START = int(sys.argv[2]) if len(sys.argv) > 2 else 1
 API = "http://localhost:8000/generate"
 
-LOOK = ("raw documentary photograph, live-action cinema still, anamorphic 35mm, "
+LOOK = ("raw documentary photograph, live-action cARCKHÉ still, anamorphic 35mm, "
         "natural skin texture and pores, film grain, practical light, shallow depth of field, "
         "muted teal and amber grade")
 NEG = ("cartoon, 3d render, cgi, pixar, anime, illustration, painting, plastic skin, "

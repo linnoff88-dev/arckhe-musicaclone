@@ -29,7 +29,7 @@ reta. As três novas trocaram isso por `quiet intro` + `extreme dynamic contrast
 
 ## 1. Legado (variante) — `legado-pt`
 
-**Prompt:** `epic cinematic pop, powerful female belt vocals, male spoken word
+**Prompt:** `epic cARCKHÉtic pop, powerful female belt vocals, male spoken word
 responses, gang vocal choir, brazilian portuguese, orchestral war drums, soaring
 strings, anthemic, wide reverb, 118bpm, emotional build, huge chorus`
 `styleWeight 0.85` · modo estilo · V5
@@ -45,7 +45,7 @@ na camada história, palco só em relance. Sem cartelas de texto além de duas.
 
 ## 2. Se Paga (PT) — `se-paga-pt`
 
-**Prompt:** `epic cinematic anthem, screaming female belting, raspy desperate
+**Prompt:** `epic cARCKHÉtic anthem, screaming female belting, raspy desperate
 female vocals, deep cavernous male baritone, viking folk duet, fast vocal call
 and response, gang vocal choir, orchestral war drums, soaring strings, raw
 aggressive vocals, 118bpm, huge chorus, brazilian portuguese`
@@ -101,7 +101,7 @@ progressêo de quarto → sala de ensaio vazia → clube pequeno.
 
 ## 5. O Centro — `o-centro`
 
-**Prompt:** `epic cinematic anthem, powerful female belt, deep male spoken word,
+**Prompt:** `epic cARCKHÉtic anthem, powerful female belt, deep male spoken word,
 gang vocal choir, no falsetto, wide slow vibrato, quiet piano intro, massive
 orchestral chorus, war drums, extreme dynamic contrast, brazilian portuguese,
 84bpm` · mesmos negativeTags

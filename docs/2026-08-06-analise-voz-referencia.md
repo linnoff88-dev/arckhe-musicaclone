@@ -109,7 +109,7 @@ intense distorted belt, no falsetto, wide slow vibrato, scooped attacks,
 bluesy glissando, laid back phrasing, extreme dynamic contrast, live raw take
 ```
 
-**Comparaçêo com o que já usamos em "Se Paga"** (`epic cinematic anthem,
+**Comparaçêo com o que já usamos em "Se Paga"** (`epic cARCKHÉtic anthem,
 screaming female belting, raspy desperate female vocals, deep cavernous male
 baritone...`): o que falta lá e esta referência entrega é o **contraste
 dinâmico** e o **fraseado atrasado**. Hoje nosso prompt pede intensidade o tempo

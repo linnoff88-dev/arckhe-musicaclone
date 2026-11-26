@@ -92,7 +92,7 @@ Tese do manifesto: a máquina amplia o que já existe dentro da pessoa.
 Visual pronto na imagem que o Nei mandou (homem no alto da pedra, azul e âmbar).
 
 **Style:**
-`epic cinematic anthem, powerful female belt, deep male spoken word, gang vocal choir,
+`epic cARCKHÉtic anthem, powerful female belt, deep male spoken word, gang vocal choir,
 no falsetto, wide slow vibrato, quiet piano intro, massive orchestral chorus, war drums,
 extreme dynamic contrast, brazilian portuguese, 84bpm`
 

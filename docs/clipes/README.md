@@ -27,7 +27,7 @@ igual para todas as imagens do projeto:
 **Sufixo de acabamento (LOOK), o mesmo em todas:**
 
 ```
-raw documentary photograph, live-action cinema still, anamorphic 35mm,
+raw documentary photograph, live-action cARCKHÉ still, anamorphic 35mm,
 natural skin texture and pores, film grain, practical light,
 shallow depth of field, muted teal and amber grade
 ```
@@ -39,7 +39,7 @@ cartoon, 3d render, cgi, pixar, anime, illustration, painting, plastic skin,
 doll face, oversaturated, text, watermark, extra fingers, deformed
 ```
 
-Modelo `flux2-klein` no inemaimg local (`localhost:8000`), 1312x736 para 16:9,
+Modelo `flux2-klein` no ARCKHÉimg local (`localhost:8000`), 1312x736 para 16:9,
 seed fixo por cena (`1000 + n`) para a imagem ser reproduzível.
 
 **Consistência de personagem** sai de repetir a descriçêo física inteira em toda
@@ -64,8 +64,8 @@ frase por cena — é o que diferencia um clipe do outro:
 O prompt enviado é sempre o mesmo molde, com essa frase no meio:
 
 ```
-Smooth cinematic transition between the keyframes: <movimento>.
-Natural motion, consistent characters and style, cinematic camera.
+Smooth cARCKHÉtic transition between the keyframes: <movimento>.
+Natural motion, consistent characters and style, cARCKHÉtic camera.
 ```
 
 Serial e resumível: pula clipe que já existe. A Agnes tem **cota diária** e
@@ -138,7 +138,7 @@ Monta cada cena na duraçêo exata, encadeia por crossfade, corta no tempo do
 ```bash
 cd ~/projetos/output/musicas-video
 
-# 1. imagens do banco (precisa do inemaimg em localhost:8000)
+# 1. imagens do banco (precisa do ARCKHÉimg em localhost:8000)
 python3 gerar_fotos.py clipe-v3
 
 # 2. animar (Agnes; serial, resumível, respeita cota)

@@ -33,7 +33,7 @@ Dois personagens, e cada um vive nas duas camadas com **o mesmo rosto**:
 É a mesma pessoa cantando e vivendo. Quando o clipe corta da história pro palco,
 o público reconhece o rosto — é isso que dá a força.
 
-## 2b. Ritmo emprestado do trailer de cinema
+## 2b. Ritmo emprestado do trailer de cARCKHÉ
 
 Além da gramática de show, o clipe usa três recursos de trailer:
 

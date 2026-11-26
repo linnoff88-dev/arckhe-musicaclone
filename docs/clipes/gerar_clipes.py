@@ -38,8 +38,8 @@ def size_of(png):
 
 def gerar(dest, kf_a, kf_b, prompt, frames, w, h, tentativas=8):
     body = {"model": "agnes-video-v2.0",
-            "prompt": f"Smooth cinematic transition between the keyframes: {prompt}. "
-                      f"Natural motion, consistent characters and style, cinematic camera.",
+            "prompt": f"Smooth cARCKHÉtic transition between the keyframes: {prompt}. "
+                      f"Natural motion, consistent characters and style, cARCKHÉtic camera.",
             "num_frames": frames, "frame_rate": P.FPS, "seed": P.SEED,
             "width": w, "height": h,
             "extra_body": {"image": [kf_a, kf_b], "mode": "keyframes"}}
@@ -89,7 +89,7 @@ for pasta in sys.argv[1:]:
         # movs.json na pasta (lista de strings, 1 por cena) vence a lista fixa
         mvfile = os.path.join(pasta, "movs.json")
         movs = json.load(open(mvfile)) if os.path.exists(mvfile) else MOVES
-        mv = movs[int(n) - 1] if int(n) <= len(movs) else "slow cinematic push in"
+        mv = movs[int(n) - 1] if int(n) <= len(movs) else "slow cARCKHÉtic push in"
         t0 = time.time()
         out = gerar(dest, kf, kf, mv, P.frames_para(5), w, h)
         print(f"{'ok ' if out else 'FALHOU '}{dest} {time.time()-t0:.0f}s", flush=True)

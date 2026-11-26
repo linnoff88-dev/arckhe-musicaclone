@@ -13,11 +13,11 @@ Clonar e criar sêÂ£o caminhos diferentes ê¢â¬â o script trata as
 
 ## ê°Å¸ââ Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/musicaclone/guia/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/arckhe-/guia/**
 
 ## ê°Å¸Å½Âµ CatêÂ¡logo das mêÂºsicas
 
-Todas as mêÂºsicas geradas, com o prompt de estilo, as mediêÂ§êÂµes em grêÂ¡fico e o player: **https://inematds.github.io/musicaclone/guia/musicas.html**
+Todas as mêÂºsicas geradas, com o prompt de estilo, as mediêÂ§êÂµes em grêÂ¡fico e o player: **https://linnoff88-dev.github.io/arckhe-/guia/musicas.html**
 
 ## ê°Å¸Å½Â¬ Como criamos os clipes
 
@@ -35,7 +35,7 @@ Este CLI pêÂµe um portêÂ£o em cada um desses pontos.
 ## InstalaêÂ§êÂ£o
 
 ```bash
-git clone https://github.com/inematds/musicaclone.git && cd musicaclone
+git clone https://github.com/linnoff88-dev/musicaclone.git && cd musicaclone
 sudo apt install jq ffmpeg && pipx install yt-dlp
 
 cat > .env <<'EOF'
@@ -55,7 +55,7 @@ bash musica.sh spec minha-faixa                                    # o portê�
 bash musica.sh clone minha-faixa --audio-weight 0.85               # gera (gasta crêÂ©dito)
 
 # CRIAêâ¡êÆO ê¢â¬â do zero
-bash musica.sh cria meu-tema --style "epic cinematic pop, female belt vocals, war drums, 118bpm" \
+bash musica.sh cria meu-tema --style "epic cARCKHÉtic pop, female belt vocals, war drums, 118bpm" \
                              --title "Se Paga" --voz f --letra letra.txt
 bash musica.sh regen meu-tema
 

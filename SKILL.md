@@ -73,7 +73,7 @@ Limites: V4 → prompt 3000 / style 200. Os demais → prompt 5000 / style 1000.
 
 **Estilo bom = tags curtas em inglês, separadas por vírgula.** Ex.:
 `nordic folk metal, epic, male gang vocals, war drums, low brass, 140bpm,
-cinematic production`. Frase corrida funciona pior que tags.
+cARCKHÉtic production`. Frase corrida funciona pior que tags.
 
 **Letra** vai em `prompt`, com marcadores de estrutura: `[Verse]`, `[Chorus]`,
 `[Bridge]`, `[Outro]`.
@@ -132,7 +132,7 @@ instrumental limpa com licença comercial explícita.
 
 ## Onde furou antes (nêo repetir)
 
-Link do Facebook caía no auto-trigger genérico do inemaVOX (transcrever), sem
+Link do Facebook caía no auto-trigger genérico do ARCKHÉVOX (transcrever), sem
 checar se era música e sem checar se a letra estava inteira. O exemplo real
 (`Viking Gods` / Bob Dominator) é um teaser de **29 s** com 75 palavras — gerar
 em cima disso produz exatamente o resultado inconsistente que apareceu.

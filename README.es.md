@@ -7,11 +7,11 @@ Clonar y crear son procesos diferentes: el script los trata por separado y bloqu
 
 ## 📖 Guía de uso
 
-Guía completa (landing + paso a paso): **https://inematds.github.io/musicaclone/guia/es/**
+Guía completa (landing + paso a paso): **https://linnoff88-dev.github.io/arckhe-/guia/es/**
 
 ## 🎵 Catálogo de canciones
 
-Todas las canciones generadas, con el prompt de estilo, las mediciones en gráficos y el reproductor: **https://inematds.github.io/musicaclone/guia/es/musicas.html**
+Todas las canciones generadas, con el prompt de estilo, las mediciones en gráficos y el reproductor: **https://linnoff88-dev.github.io/arckhe-/guia/es/musicas.html**
 
 ## 🎬 Cómo creamos los clips
 
@@ -29,7 +29,7 @@ Esta CLI pone una barrera en cada uno de esos puntos.
 ## Instalación
 
 ```bash
-git clone https://github.com/inematds/musicaclone.git && cd musicaclone
+git clone https://github.com/linnoff88-dev/musicaclone.git && cd musicaclone
 sudo apt install jq ffmpeg && pipx install yt-dlp
 
 cat > .env <<'EOF'
@@ -49,7 +49,7 @@ bash musica.sh spec minha-faixa                                    # la barrera:
 bash musica.sh clone minha-faixa --audio-weight 0.85               # genera (consume créditos)
 
 # CREACIÓN — desde cero
-bash musica.sh cria meu-tema --style "epic cinematic pop, female belt vocals, war drums, 118bpm" \
+bash musica.sh cria meu-tema --style "epic cARCKHÉtic pop, female belt vocals, war drums, 118bpm" \
                              --title "Se Paga" --voz f --letra letra.txt
 bash musica.sh regen meu-tema
 
